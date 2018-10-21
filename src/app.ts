@@ -88,5 +88,5 @@ export default app;
 
 export interface State {
   launchStatus: string,
-  update: ({}) => void,
+  update: (obj: {}) => void,
 }
